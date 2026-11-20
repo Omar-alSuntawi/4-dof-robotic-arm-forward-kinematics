@@ -2,6 +2,10 @@
 
 A Project for **Linear Algebra and Vector Geometry** modeling the forward kinematics of a **4-Degree-of-Freedom (4-DOF)** articulated robotic arm using homogeneous transformation matrices, the **Denavit–Hartenberg (D–H)** convention, and **MATLAB**.
 
+## Hardware Prototype
+
+![4-DOF Robotic Arm Prototype](prototype_arm.jpg)
+
 ## Overview
 
 In robot kinematics, forward kinematics computes the position and orientation of the end-effector given known joint parameters and joint angles. Using the D–H representation, each joint frame is linked via a $4 \times 4$ transformation matrix $T_i$, and the overall end-effector transformation is obtained by chaining matrix multiplications:
@@ -18,10 +22,6 @@ The end-effector Cartesian position $(P_x, P_y, P_z)$ is read directly from the 
 | 2 | Shoulder | $90^\circ$ | $0$ | $0$ | $\theta_2$ |
 | 3 | Elbow | $0^\circ$ | $8$ | $0$ | $\theta_3$ |
 | 4 | Wrist | $0^\circ$ | $8$ | $16$ | $\theta_4$ |
-
-## Hardware Prototype
-
-![4-DOF Robotic Arm Prototype](prototype_arm.jpg)
 
 ## Repository Structure
 
