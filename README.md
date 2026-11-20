@@ -26,7 +26,7 @@ The end-effector Cartesian position $(P_x, P_y, P_z)$ is read directly from the 
 ## Repository Structure
 
 ```text
-4dof-robotic-arm-kinematics/
+4-dof-robotic-arm-forward-kinematics/
 ├── README.md                  # Project summary, D-H table, and usage guide
 ├── 4 DOF.docx             # Original report and analytical derivation
 ├── forward_kinematics.m   # MATLAB script computing T1..T4, Tt, and (Px, Py, Pz)
@@ -35,7 +35,7 @@ The end-effector Cartesian position $(P_x, P_y, P_z)$ is read directly from the 
 
 ## Usage
 
-1. Open `matlab/forward_kinematics.m` in MATLAB.
+1. Open `forward_kinematics.m` in MATLAB.
 2. Run the script and enter four joint angles in degrees when prompted, for example:
    ```matlab
    [0, 45, -30, 0]
