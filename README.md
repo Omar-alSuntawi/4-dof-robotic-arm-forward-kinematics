@@ -41,9 +41,3 @@ The end-effector Cartesian position $(P_x, P_y, P_z)$ is read directly from the 
    [0, 45, -30, 0]
    ```
 3. Inspect the resulting homogeneous transformation matrix `Tt` and end-effector coordinates `(Px, Py, Pz)` in the Command Window.
-
-## Authors
-
-* Omar Shams El-santawi
-* Moaaz El-Said
-* Abanoub Selim
